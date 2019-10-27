@@ -13,7 +13,7 @@ app.use(bodyParser.json());
 app.use(helmet());
 app.use(morgan('dev'));
 // Serve up static assets
-app.use(express.static("client/build/index.html"));
+app.use(express.static("client/build"));
 // Add routes, both API and view
 app.use(routes);
 
