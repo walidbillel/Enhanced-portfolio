@@ -1,0 +1,43 @@
+.html, .css{
+    width: 90%;
+}
+.js{
+    width: 85%;
+}
+.rc {
+    width: 85%;
+}
+.progress {
+    height: 20px;
+}
+
+.ph {
+    width: 70%;
+}
+
+.skills-box {
+    margin-top: 150px;
+   
+
+}
+
+#skills-hash {
+    font-size: 15px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 4px;
+}
+
+h4 {
+    color: white;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.skills-title {
+    color: white;
+    text-align: center;
+    letter-spacing: 10px;
+    font-size: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

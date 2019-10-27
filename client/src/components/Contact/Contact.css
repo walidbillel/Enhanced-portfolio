@@ -1,0 +1,82 @@
+.contact-titre {
+  color: white;
+  margin-right: 40px;
+  
+  width: 100%;
+  text-align: center;
+  letter-spacing: 10px;
+  font-size: 50px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+#input {
+  
+  margin-bottom: 20px;
+}
+
+
+
+.flex-box {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.flex-box > div {
+  width: 100px;
+  opacity: 0.8;
+  margin: 10px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.flex-box-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-box-2 > div {
+    width: 100%;
+    
+    margin: 10px;
+    text-align: center;
+    font-size: 30px;
+  }
+
+.flex-box > div:hover {
+  opacity: 1;
+}
+
+#eml {
+    color: white;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    letter-spacing: 3px;
+}
+.send {
+  width: 100%;
+}
+
+#copyright {
+    text-align: center;
+    color: white;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    padding: 10px;
+    letter-spacing: 5px;
+    margin: 0;
+}
+
+@media only screen and (max-width: 800px) {
+    #copyright {
+        font-size: 8px;
+    }
+    }
+  
+
+
+.box-container {
+  padding: 30px;
+  border: 2px solid rgb(31, 30, 30);
+  box-shadow: 0 4px 5px rgb(34, 33, 33), 0 4px 6px rgb(17, 17, 17);
+  margin-bottom: 50px;
+  background-color: rgb(25, 25, 26);
+}
