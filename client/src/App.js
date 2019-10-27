@@ -87,6 +87,23 @@ const projects = [
     appLink: "https://walidbillel.github.io/TriviaGame/",
     gif:
       "https://static.vecteezy.com/system/resources/previews/000/129/108/non_2x/trivia-papper-background-illustration-vector.jpg"
+  }, {
+    id: 9,
+    projectName: "News Scraper",
+    technologies: "MongoDB, Cheerio, JQUERY, AJAX",
+    gitHub: "https://github.com/walidbillel/news-scraper",
+    appLink: "https://new-york-times-scraper-walid.herokuapp.com/",
+    gif:
+      "https://apify-image-uploads-prod.s3.amazonaws.com/YrQuEkowkNCLdk4j2/vYbYB6oCJP2bpAWFE-logo_cheerio-scraperx.png"
+  },
+  {
+    id: 10,
+    projectName: "Train Track",
+    technologies: "Firebase, javascript, JQUERY",
+    gitHub: "https://github.com/walidbillel/Train-Scheduler-",
+    appLink: "https://walidbillel.github.io/Train-Scheduler-/",
+    gif:
+      "https://images.all-free-download.com/images/graphicthumb/classic_locomotive_train_312396.jpg"
   }
 ];
 
