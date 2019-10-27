@@ -1,4 +1,4 @@
-# enhanced-portfolio
+# Portfolio
 This is my updated personal website built using React JS for client side and Express JS for server side.
 ## Documentation 
 
