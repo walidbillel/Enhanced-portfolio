@@ -6,6 +6,7 @@ import CardProject from "./components/Cardprojects";
 import Contact from "./components/Contact";
 import Zoom from "react-reveal/Zoom";
 import Fade from "react-reveal/Fade";
+import { Parallax, Background } from 'react-parallax';
 import { VerticleButton as ScrollUpButton } from "react-scroll-up-button";
 import Illustration from "./components/Illustrations";
 
@@ -111,9 +112,17 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
+        <Parallax
+            blur={{ min: -2, max: 10 }}
+            bgImage={require('./bg.jpg')}
+            bgImageAlt="the cat"
+            strength={100}
+        >
+         
         <About />
+        
         <Skills />
-        <Fade right>
+        
           <br></br>
           <br></br>
           <Zoom>
@@ -131,7 +140,7 @@ class App extends React.Component {
               />
             ))}
           </div>
-        </Fade>
+        
         <br></br>
         <Zoom>
           <p className="illu-titre">Illustrations</p>
@@ -141,7 +150,7 @@ class App extends React.Component {
         <Fade left>
           <Contact />
         </Fade>
-        <ScrollUpButton />
+        <ScrollUpButton /></Parallax>
       </div>
     );
   }

@@ -25,11 +25,12 @@ class CardProject extends React.Component {
 
   render() {
     return (
+      <Fade left>
       <div className=" project-card" >
         <div className="img-container">
           <img src={this.props.gif} alt={this.props.projectName} />
         </div>
-        <Fade left>
+        
           <div className="content">
             <button className="btn btn-dark" onClick={this.showModal}><span className="titre"> {this.props.projectName}</span></button>
             <br></br>
@@ -37,12 +38,12 @@ class CardProject extends React.Component {
             <br></br>
             <p id="tec"> {this.props.technologies}</p>
           </div>
-        </Fade>
+        
 
         <Modal show={this.state.show} handleClose={this.hideModal}>
         <iframe src={this.props.appLink} title={this.props.appLink}></iframe>
       </Modal>
-      </div>
+      </div></Fade>
 
      
     );

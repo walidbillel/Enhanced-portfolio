@@ -1,31 +1,23 @@
-.html, .css{
-    width: 100%;
-}
-.js{
-    width: 100%;
-}
-.rc {
-    width: 100%;
-}
-.progress {
-    height: 20px;
-}
-
-.ph {
-    width: 100%;
+.list-unstyled {
+    text-align: center;
+    margin-top: 50px;
+    border: 1px solid rgb(18, 19, 18);
+    padding: 20px;
+    box-shadow: 3px 3px 7px rgb(29, 221, 228);
+    
 }
 
 .skills-box {
-    margin-top: 150px;
+    margin-top: 100px;
    
-
 }
 
 #skills-hash {
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
     letter-spacing: 4px;
+    text-align: center;
 }
 
 h4 {
@@ -35,9 +27,9 @@ h4 {
 }
 
 .skills-title {
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
     letter-spacing: 10px;
-    font-size: 50px;
+    font-size: 60px;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
